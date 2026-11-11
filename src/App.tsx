@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Certificates from "./components/Certificates";
@@ -15,6 +16,7 @@ export default function App() {
         <Hero />
         <Projects />
         <Skills />
+        <Education />
         <Certificates />
         <Resume />
         <Contact />

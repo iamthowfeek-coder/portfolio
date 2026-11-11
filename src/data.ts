@@ -36,6 +36,11 @@ export const skills = [
   { group: "Tools", items: ["Git", "GitHub", "VS Code", "IntelliJ IDEA", "Vite"] },
 ];
 
+export const education = [
+  { degree: "Master's in Computer Science", school: "Sadakathullah Appa College", university: "Manonmaniam Sundaranar University", years: "2024 - 2026" },
+  { degree: "Bachelor's in Computer Science", school: "Sadakathullah Appa College", university: "Manonmaniam Sundaranar University", years: "2021 - 2024" },
+];
+
 export const certificates = [
   {
     title: "Agentic AI Certified Foundations Associate",
@@ -56,3 +61,4 @@ export const certificates = [
     link: "#certificates",
   },
 ];
+
