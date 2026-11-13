@@ -24,7 +24,7 @@ export const projects = [
     desc: "Full-stack app where users browse menus, place orders and track deliveries in real time, with a dynamic cart, a responsive UI and REST APIs backed by MySQL.",
     tech: ["HTML5", "CSS3", "JavaScript", "Node.js", "MySQL"],
     live: "",
-    repo: "https://github.com/iamthowfeek-coder",
+    repo: "https://github.com/iamthowfeek-coder/food-delivery-app",
   },
 ];
 
