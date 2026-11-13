@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { profile } from "../data";
 
-const links = ["projects", "skills", "certificates", "resume", "contact"];
+const links = ["projects", "skills", "education", "certificates", "resume", "contact"];
 
 export default function Navbar() {
   const [solid, setSolid] = useState(false);

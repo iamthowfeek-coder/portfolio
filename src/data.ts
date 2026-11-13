@@ -17,15 +17,13 @@ export const projects = [
     desc: "AI web app that detects real-time vehicle density at intersections and adjusts signal timing, with priority for emergency vehicles. Includes login, video upload, live detection, an analytics dashboard and PDF reports.",
     tech: ["Python", "YOLO", "OpenCV", "Streamlit", "SQLite"],
     live: "",
-    repo: "https://github.com/iamthowfeek-coder",
-  },
+    repo: "https://github.com/iamthowfeek-coder/yolo-traffic-light-system",     },
   {
     title: "Online Food Delivery Website",
     desc: "Full-stack app where users browse menus, place orders and track deliveries in real time, with a dynamic cart, a responsive UI and REST APIs backed by MySQL.",
     tech: ["HTML5", "CSS3", "JavaScript", "Node.js", "MySQL"],
     live: "",
-    repo: "https://github.com/iamthowfeek-coder/food-delivery-app",
-  },
+    repo: "https://github.com/iamthowfeek-coder/food-delivery-app",  },
 ];
 
 export const skills = [
