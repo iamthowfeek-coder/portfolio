@@ -14,16 +14,25 @@ export const profile = {
 export const projects = [
   {
     title: "YOLO Density-Aware Traffic Light System",
-    desc: "AI web app that detects real-time vehicle density at intersections and adjusts signal timing, with priority for emergency vehicles. Includes login, video upload, live detection, an analytics dashboard and PDF reports.",
+    desc: "AI web app that detects real-time vehicle density at intersections with a YOLO model and adapts signal timing to vehicle count and emergency vehicle presence. Includes login, video upload, analytics dashboard and PDF reports.",
     tech: ["Python", "YOLO", "OpenCV", "Streamlit", "SQLite"],
     live: "",
-    repo: "https://github.com/iamthowfeek-coder/yolo-traffic-light-system",     },
+    repo: "https://github.com/iamthowfeek-coder/yolo-traffic-light-system",
+  },
   {
-    title: "Online Food Delivery Website",
-    desc: "Full-stack app where users browse menus, place orders and track deliveries in real time, with a dynamic cart, a responsive UI and REST APIs backed by MySQL.",
-    tech: ["HTML5", "CSS3", "JavaScript", "Node.js", "MySQL"],
+    title: "AI Support Copilot (RAG)",
+    desc: "Support assistant that searches a company's documents by keyword and drafts replies from the retrieved passages, with sources shown. Questions it cannot answer go to a human agent, and nothing is sent without agent approval.",
+    tech: ["Node.js", "Express", "MySQL", "React", "LLM API"],
     live: "",
-    repo: "https://github.com/iamthowfeek-coder/food-delivery-app",  },
+    repo: "https://github.com/iamthowfeek-coder/rag-assistant",
+  },
+  {
+    title: "Online Food Delivery Platform",
+    desc: "Full-stack food delivery app with a dynamic cart, order tracking, a rider page that needs the customer's 4-digit code to mark an order delivered, complaints and an admin dashboard.",
+    tech: ["HTML5", "CSS3", "JavaScript", "Node.js", "Express", "MySQL"],
+    live: "",
+    repo: "https://github.com/iamthowfeek-coder/food-delivery-app",
+  },
 ];
 
 export const skills = [
