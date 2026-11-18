@@ -1,7 +1,6 @@
 // All portfolio content lives here. Save the file and the browser updates by itself.
 export const profile = {
   name: "Kother Thowfeek J",
-  role: "Full Stack Developer",
   tagline:
     "I love to work, solve problems and communicate clearly, and I build reliable web apps and AI-powered systems.",
   photo: "/profile.jpg",
