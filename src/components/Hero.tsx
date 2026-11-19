@@ -11,7 +11,6 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
       >
-        <p className="hero__role">{profile.role}</p>
         <h1>{profile.name}</h1>
         <p className="hero__tag">{profile.tagline}</p>
         <div className="hero__cta">
